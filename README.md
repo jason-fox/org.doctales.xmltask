@@ -7,7 +7,7 @@ org.doctales.xmltask
 
 [![license](https://img.shields.io/github/license/doctales/org.doctales.xmltask)](http://www.apache.org/licenses/LICENSE-2.0)
 
-**org.doctales.xmltask** is an abstract base DITA-OT Plug-in for the [DITA-OT](http://dita-ot.github.io) that provides the [OOPS Consultancy XMLTask](http://www.oopsconsultancy.com/software/xmltask/) library. It is designed to be extended.
+**org.doctales.xmltask** is an abstract base DITA-OT Plug-in for the [DITA-OT](http://dita-ot.github.io) that provides the [OOPS Consultancy XMLTask](http://www.oopsconsultancy.com/software/xmltask/) library. Xmltask provides the facility for automatically editing XML files as part of an Ant build. It is designed to be extended.
 
 
 # Install
