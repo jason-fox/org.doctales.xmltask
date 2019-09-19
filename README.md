@@ -51,7 +51,7 @@ The `dita` command line tool requires no additional configuration.
 
 # License
 
-[Apache 2.0](LICENSE) © 2018-2019 DocTales
+[Apache 2.0](LICENSE) © 2017-2019 DocTales
 
 The Program includes the following additional software components which were obtained under license:
 
