@@ -47,6 +47,18 @@ dita --install https://github.com/doctales/org.doctales.xmltask/archive/master.z
 
 The `dita` command line tool requires no additional configuration.
 
+# Usage
+
+To use the The XMLTask plug-in  simply add a `<require>` element to your own `plugin.xml`
+
+#### `plugin.xml` Configuration
+
+```xml
+<plugin id="com.example.dita">
+  <require plugin="org.doctales.xmltask"/>
+</plugin>
+```
+
 ---
 
 # License
