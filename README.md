@@ -7,7 +7,7 @@ org.doctales.xmltask
 
 [![license](https://img.shields.io/github/license/doctales/org.doctales.xmltask)](http://www.apache.org/licenses/LICENSE-2.0)
 
-**org.doctales.xmltask** is an abstract base [DITA-OT Plug-in](https://www.dita-ot.org/plugins) for the [DITA-OT](http://dita-ot.github.io) that provides the [OOPS Consultancy XMLTask](http://www.oopsconsultancy.com/software/xmltask/) library. Xmltask provides the facility for automatically editing XML files as part of an Ant build. The plug-in is designed to be extended.
+**org.doctales.xmltask** is an abstract base [DITA-OT Plug-in](https://www.dita-ot.org/plugins) for the [DITA-OT](http://dita-ot.github.io) that provides the [OOPS Consultancy XMLTask](https://github.com/antlibs/ant-xmltask) library. Xmltask provides the facility for automatically editing XML files as part of an Ant build. The plug-in is designed to be extended.
 
 
 # Install
@@ -24,7 +24,7 @@ The XMLTask plug-in is a DITA-OT Plugin for the DITA Open Toolkit.
 -   Full installation instructions for downloading DITA-OT can be found
     [here](https://www.dita-ot.org/3.3/topics/installing-client.html).
 
-    1.  Download the `dita-ot-3.3.4.zip` package from the project website at
+    1.  Download the `dita-ot-3.7.2.zip` package from the project website at
         [dita-ot.org/download](https://www.dita-ot.org/download)
     2.  Extract the contents of the package to the directory where you want to install DITA-OT.
     3.  **Optional**: Add the absolute path for the `bin` directory to the _PATH_ system variable.
@@ -32,9 +32,9 @@ The XMLTask plug-in is a DITA-OT Plugin for the DITA Open Toolkit.
     This defines the necessary environment variable to run the `dita` command from the command line.
 
 ```console
-curl -LO https://github.com/dita-ot/dita-ot/releases/download/3.3.4/dita-ot-3.3.4.zip
-unzip -q dita-ot-3.3.4.zip
-rm dita-ot-3.3.4.zip
+curl -LO https://github.com/dita-ot/dita-ot/releases/download/3.7.2/dita-ot-3.7.2.zip
+unzip -q dita-ot-3.7.2.zip
+rm dita-ot-3.7.2.zip
 ```
 
 ## Installing the Plug-in
@@ -63,8 +63,8 @@ To use the XMLTask plug-in  simply add a `<require>` element to your own `plugin
 
 # License
 
-[Apache 2.0](LICENSE) © 2017-2019 DocTales
+[Apache 2.0](LICENSE) © 2017-2022 DocTales
 
 The Program includes the following additional software components which were obtained under license:
 
--   xmltask.jar - http://www.oopsconsultancy.com/software/xmltask/ - **Apache 1.1 license**
+-   xmltask.jar - https://github.com/antlibs/ant-xmltask - **Apache 1.1 license**
