@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="dita-ot/plugin.rnc" type="application/relax-ng-compact-syntax"?>
-<plugin id="org.doctales.xmltask">
+<plugin id="org.jung.xmltask">
     <feature extension="dita.conductor.lib.import" file="lib/xmltask.jar"/>
     <feature extension="dita.conductor.target.relative" file="build.xml"/>
 </plugin>
